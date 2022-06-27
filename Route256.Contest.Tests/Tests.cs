@@ -18,18 +18,23 @@ namespace Route256.Contest.Tests
         [Test, TestCaseSource(nameof(TestCaseProvider))]
         public void Test(int testNumber)
         {
+            // Arrange
             using var readStream = new StreamReader($"{FilePath}\\{testNumber:00}");
             using var readExpectedStream = new StreamReader($"{FilePath}\\{testNumber:00}.a");
             using var text = new StringWriter();
 
             Console.SetIn(readStream);
             Console.SetOut(text);
+
+            // Act
             Program.Main();
+
             var expectedText = readExpectedStream.ReadToEnd().Trim();
             var expected = expectedText.Split('\n');
             var resultText = text.ToString().Trim();
             var result = resultText.Split('\n');
 
+            // Assert
             for (var i = 0; i < expected.Length; i++)
             {
                 Assert.AreEqual(expected[i].Trim(), result[i].Trim(), $"Ожидается: \n{expectedText}\n Получен: \n{resultText}");
