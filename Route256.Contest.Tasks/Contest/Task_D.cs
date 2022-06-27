@@ -2,5 +2,9 @@
 {
     internal class Task_D
     {
+        internal static void Main_Task()
+        {
+
+        }
     }
 }
