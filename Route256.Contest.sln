@@ -5,7 +5,20 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Route256.Contest.Tasks", "Route256.Contest.Tasks\Route256.Contest.Tasks.csproj", "{64F1DAEA-8DBB-4AC0-91C0-0A8D61EA593B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Route256.Contest.Tests", "Route256.Contest.Tests\Route256.Contest.Tests.csproj", "{ED7BAB9E-2EB3-48EE-8448-51718704B64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Route256.Contest.Tests", "Route256.Contest.Tests\Route256.Contest.Tests.csproj", "{ED7BAB9E-2EB3-48EE-8448-51718704B64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4C64619-7BC9-45FC-A4A7-19DC1A442338}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sandbox", "Sandbox", "{C43E8BC8-4B95-483D-95F5-9D7394284AF0}"
+	ProjectSection(SolutionItems) = preProject
+		Sandbox\Задача - B - Codeforces.pdf = Sandbox\Задача - B - Codeforces.pdf
+		Sandbox\Задача - C - Codeforces.pdf = Sandbox\Задача - C - Codeforces.pdf
+		Sandbox\Задача - D - Codeforces.pdf = Sandbox\Задача - D - Codeforces.pdf
+		Sandbox\Задача - E1 - Codeforces.pdf = Sandbox\Задача - E1 - Codeforces.pdf
+		Sandbox\Задача - E2 - Codeforces.pdf = Sandbox\Задача - E2 - Codeforces.pdf
+		Sandbox\Задача - F - Codeforces.pdf = Sandbox\Задача - F - Codeforces.pdf
+		Sandbox\Задача - G - Codeforces.pdf = Sandbox\Задача - G - Codeforces.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C43E8BC8-4B95-483D-95F5-9D7394284AF0} = {F4C64619-7BC9-45FC-A4A7-19DC1A442338}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FD3CFB2D-0AF0-40FB-8216-4E42B2DE37D2}
