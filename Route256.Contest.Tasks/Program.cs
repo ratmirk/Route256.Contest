@@ -50,6 +50,15 @@ namespace Route256.Contest.Tasks
                     case Tasks.TaskName.G:
                         Contest.Task_G.Main_Task();
                         break;
+                    case Tasks.TaskName.H:
+                        Contest.Task_H.Main_Task();
+                        break;
+                    case Tasks.TaskName.I:
+                        Contest.Task_I.Main_Task();
+                        break;
+                    case Tasks.TaskName.J:
+                        Contest.Task_J.Main_Task();
+                        break;
                     default:
                         throw new ArgumentException("Некорректное имя таски");
                 }

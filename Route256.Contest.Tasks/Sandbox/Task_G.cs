@@ -78,7 +78,7 @@ namespace Route256.Contest.Tasks.Sandbox
         /// </summary>
         private static bool CheckLines(Dictionary<char, SortedSet<int>> field, int crossCount, int zeroCount)
         {
-            var lines = new List<List<int>>
+            var lines = new List<HashSet<int>>
             {
                 new() {1, 2, 3}, new() {4, 5, 6}, new() {7, 8, 9}, new() {1, 4, 7},
                 new() {2, 5, 8}, new() {3, 6, 9}, new() {1, 5, 9}, new() {3, 5, 7}
