@@ -84,7 +84,7 @@ namespace Route256.Contest.Tasks.Contest
             //first by EndWorkTime
             var result = x.EndWorkTime.CompareTo(y.EndWorkTime);
 
-            //then start
+            //then power
             if (result == 0)
                 result = x.Power.CompareTo(y.Power);
 
