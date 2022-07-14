@@ -35,13 +35,13 @@ namespace Route256.Contest.Tests
             var result = resultText.Split('\n');
 
             // Assert
-            Assert.IsTrue(expected.SequenceEqual(result), "Неправильный результат");
+            Assert.IsTrue(expected.SequenceEqual(result), "РќРµРїСЂР°РІРёР»СЊРЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚");
 
             // Uncomment for debug failed test, works slowly
             //for (var i = 0; i < expected.Length; i++)
             //{
-            //    //Assert.AreEqual(expected[i].Trim().Length, result[i].Trim().Length, $"Ожидается длина ответа: \n{expected[i].Trim().Length}\n Получена: \n{result[i].Trim().Length}");
-            //    Assert.AreEqual(expected[i].Trim(), result[i].Trim(), $"Строка:{i + 1}\n Ожидается: \n{expectedText}\n Получен: \n{resultText}");
+            //    //Assert.AreEqual(expected[i].Trim().Length, result[i].Trim().Length, $"РћР¶РёРґР°РµС‚СЃСЏ РґР»РёРЅР° РѕС‚РІРµС‚Р°: \n{expected[i].Trim().Length}\n РџРѕР»СѓС‡РµРЅР°: \n{result[i].Trim().Length}");
+            //    Assert.AreEqual(expected[i].Trim(), result[i].Trim(), $"РЎС‚СЂРѕРєР°:{i + 1}\n РћР¶РёРґР°РµС‚СЃСЏ: \n{expectedText}\n РџРѕР»СѓС‡РµРЅ: \n{resultText}");
             //}
         }
     }
