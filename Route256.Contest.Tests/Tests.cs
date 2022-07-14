@@ -35,8 +35,7 @@ namespace Route256.Contest.Tests
             var result = resultText.Split('\n');
 
             // Assert
-
-            Assert.IsTrue(expected.SequenceEqual(result), "Некорректный результат");
+            Assert.IsTrue(expected.SequenceEqual(result), "Неправильный результат");
 
             // Uncomment for debug failed test, works slowly
             //for (var i = 0; i < expected.Length; i++)
