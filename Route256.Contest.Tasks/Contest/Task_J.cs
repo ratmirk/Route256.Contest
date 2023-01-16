@@ -6,6 +6,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_J
     {
+        // Рифмы
         internal static void Main_Task()
         {
             var dictCount = int.Parse(Console.ReadLine());

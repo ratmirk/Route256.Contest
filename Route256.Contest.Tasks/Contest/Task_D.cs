@@ -8,6 +8,7 @@ public class Task_D
 {
     public static readonly char[] Vowels = "euioay".ToCharArray();
 
+    // Подсказчик паролей
     internal static void Main_Task()
     {
         var count = int.Parse(Console.ReadLine());

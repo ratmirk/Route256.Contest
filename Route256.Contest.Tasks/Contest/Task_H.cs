@@ -6,6 +6,8 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_H
     {
+        // Валидация карты
+        // TODO: Доделать решение (не готово)
         internal static void Main_Task()
         {
             var count = int.Parse(Console.ReadLine());
@@ -20,7 +22,7 @@ namespace Route256.Contest.Tasks.Contest
                 for (int j = 0; j < rowsCount; j++)
                 {
                     var line = Console.ReadLine();
-                    var colors = line.Split('.', StringSplitOptions.RemoveEmptyEntries).ToList().Select(X => X.ToCharArray().First()).ToList();
+                    var colors = line.Split('.', StringSplitOptions.RemoveEmptyEntries).ToList().Select(x => x.ToCharArray().First()).ToList();
                     if (line.First() == '.')
                     {
                         for (int k = 0, ii = 2; k < colors.Count; k++, ii+=2)

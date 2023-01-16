@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Route256.Contest.Tasks.Sandbox
 {
+    // Wordle
     internal class Task_D
     {
         private const char GREEN = 'G';

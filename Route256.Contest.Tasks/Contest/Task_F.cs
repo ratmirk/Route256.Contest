@@ -5,6 +5,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_F
     {
+        // Отрезки времени
         internal static void Main_Task()
         {
             var count = int.Parse(Console.ReadLine());

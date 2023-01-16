@@ -5,6 +5,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_C
     {
+        // Оповещения
         internal static void Main_Task()
         {
             var countList = Console.ReadLine().Split(' ').Select(x => int.Parse(x)).ToList();

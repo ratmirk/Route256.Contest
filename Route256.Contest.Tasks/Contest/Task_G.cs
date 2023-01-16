@@ -6,6 +6,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_G
     {
+        // Возможные друзья
         internal static void Main_Task()
         {
             var countList = Console.ReadLine().Split(' ').Select(x => int.Parse(x)).ToList();

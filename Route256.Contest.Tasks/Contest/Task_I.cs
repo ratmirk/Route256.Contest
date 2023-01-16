@@ -7,6 +7,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_I
     {
+        // Планировщик задач
         internal static void Main_Task()
         {
             var countList = Console.ReadLine().Split(' ').Select(x => long.Parse(x)).ToList();

@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Route256.Contest.Tasks.Sandbox
 {
+    // Дельта-кодирование
     internal class Task_C
     {
         internal static void Main_Task()

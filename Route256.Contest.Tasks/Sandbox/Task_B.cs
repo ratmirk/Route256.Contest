@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Route256.Contest.Tasks.Sandbox
 {
+    // Приоритизация заданий
     internal class Task_B
     {
         internal static void Main_Task()
@@ -30,7 +31,7 @@ namespace Route256.Contest.Tasks.Sandbox
                 var keys = dic.Keys.ToList();
 
                 for (int k = keys.Count - 1, ii = 1; k >= 0; k--, ii++)
-                
+
                 {
                     if (keys.Count == 1 || k == 0)
                     {
@@ -62,7 +63,7 @@ namespace Route256.Contest.Tasks.Sandbox
                     }
                 }
 
-                
+
                 Console.WriteLine(string.Join(" ", tasksList));
             }
         }

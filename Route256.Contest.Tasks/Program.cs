@@ -88,6 +88,15 @@ namespace Route256.Contest.Tasks
                     case Tasks.TaskName.G:
                         Sandbox.Task_G.Main_Task();
                         break;
+                    case Tasks.TaskName.H:
+                        Sandbox.Task_H.Main_Task();
+                        break;
+                    case Tasks.TaskName.I:
+                        Sandbox.Task_I.Main_Task();
+                        break;
+                    case Tasks.TaskName.J:
+                        Sandbox.Task_J.Main_Task();
+                        break;
                     default:
                         throw new ArgumentException("Некорректное имя таски");
                 }

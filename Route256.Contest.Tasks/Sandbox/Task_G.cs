@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Route256.Contest.Tasks.Sandbox
 {
+    // Крестики-нолики
     internal class Task_G
     {
         private const char ZERO = '0';

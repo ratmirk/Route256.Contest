@@ -6,6 +6,7 @@ namespace Route256.Contest.Tasks.Contest
 {
     internal class Task_E
     {
+        // Отчет
         internal static void Main_Task()
         {
             var count = int.Parse(Console.ReadLine());
